@@ -1,5 +1,12 @@
 /**
  * Created by a1 on 2017-04-30.
+ *
+ * W klasie abstrakcyjnej oprócz metod abstrakcyjnych (czyli bez implementacji) można umieścić także metody rzeczywiste z konkretną implementacją. Oprócz metod klasa abstrakcyjna może także posiadać atrybuty, konstruktory, wewnętrzne klasy oraz wewnętrzne interfejsy. Składniki klasy mogą mieć dowolne modyfikatory dostępu oraz mogą mieć charakter statyczny lub instancyjny.
+ W interfejsie można umieścić tylko metody abstrakcyjne (bez implementacji), atrybuty oraz wewnętrzne klasy i wewnętrzne interfejsy. Metody w interfejsie muszą być abstrakcyjne i publiczne. Atrybuty w interfejsie muszą być publiczne, statyczne i finalne.
+
+ DOKŁADNIEJ sytuacja zmieniła się od Javy SE 8:
+ w interfejsach możemy mieć także metody z domyślną implementacją oraz statyczne metody (z implementacją).
+ W Javie klasa może dziedziczyć tylko po jednej klasie. Klasa może implementować wiele interfejsów. Interfejs może dziedziczyć po wielu interfejsach jednocześnie.
  */
 public class TestOfPolymorphism {
     public static void main(String... args){
